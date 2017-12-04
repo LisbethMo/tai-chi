@@ -1,0 +1,51 @@
+.circle {
+  border-radius: 50%;
+}
+
+.big {
+  height: 200px;
+  width: 200px;
+  background: white;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+.half {
+  height: 50%;
+  width: 100%;
+  background: black;
+}
+
+.quarter {
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  position: absolute;
+}
+
+.quarter-left {
+  background: black;
+}
+
+.quarter-right {
+  left: 50%;
+  background: white;
+}
+
+.small {
+  height: 33%;
+  width: 33%;
+  top: 35%;
+  position: absolute;
+}
+
+.small-left {
+  left: 33%;
+  background: white;
+}
+
+.small-right {
+  right: 33%;
+  background: black;
+}
